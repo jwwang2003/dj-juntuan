@@ -5,11 +5,12 @@ export default function Contact(): JSX.Element {
     <CardTemplate>
       <div className="flex flex-col md:flex-row my-auto">
         <section className="mb-4 md:mr-4 md:mb-0">
-          <img
+          {/* <img
             className="max-w-sm md:max-w-md"
-            src="/logo.png"
+            src="/logo-static-1080.png"
             alt="DJ clan logo"
-            />
+            /> */}
+            <video className="max-w-sm md:max-w-md" loop autoPlay src="/0001-0060.webm"/>
         </section>
         <section className="mt-4 md:ml-4 md:mt-0 w-md">
           <article>
