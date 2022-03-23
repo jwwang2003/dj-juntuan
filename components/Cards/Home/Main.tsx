@@ -74,10 +74,11 @@ function AnimatedClanLogo(): JSX.Element {
 
   return (
     <div className="relative animated-logo">
-      <div className="absolute">
-        <img 
-          src="untitled1.png" 
-          className={clsx("opacity-100 transition-opacity duration-500", ready && !loading && "opacity-0")}
+      <div className="absolute w-full">
+        <img
+          alt="DJ clan logo"
+          src="/0001compress.png" 
+          className={clsx("w-full opacity-100 transition-opacity duration-500", ready && !loading && "opacity-0")}
         />
       </div>
       
