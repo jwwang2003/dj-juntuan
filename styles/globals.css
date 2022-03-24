@@ -26,3 +26,16 @@ a {
   height: 100%;
   aspect-ratio: 1;
 }
+
+#main-container,
+#main-container > .home-page-template {
+  @apply flex flex-col
+}
+
+#main-container > .home-page-template > div {
+  @apply flex flex-col mx-auto md:!flex-row my-auto
+}
+
+.home-page-template {
+  @apply min-h-screen p-8 even:bg-opacity-50 even:bg-neutral-900
+}
